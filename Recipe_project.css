@@ -1,0 +1,67 @@
+h1
+{
+    text-align:center;
+    background:grey;
+    color:white;
+    width:100%;
+    top: 0 rem; 
+}
+nav
+{
+    list-style-position:inside;
+    background:pink;
+    text-align: left;
+    Opacity:0.8;
+}
+nav:hover
+{
+    text-align: center;
+    background:pink;
+   
+    font-size: 20px;
+    list-style-position:inside;
+    width:100%;
+    Opacity:1.0;
+}
+body
+{
+    font-size:120%;
+    background-image:url("https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+    background-repeat: repeat;
+    background-width:100%;
+}
+.img
+{
+    width:300px;
+    padding:8px;
+    border:5px solid grey;
+}
+.margin
+{
+    margin-left: 50px;
+}
+.table,tr,td,th
+{
+    border:1px black solid;
+    border-collapse:collapse;
+    
+}
+table
+{
+    margin-left:50px;
+    padding-left:50px;
+}
+tr
+{
+    border-bottom:1px solid grey;
+}
+th.ingredient
+{
+    text-align: left;
+    padding-right:2em;
+}
+th.amount
+{
+    text-align: right;
+    padding-right:2em;
+}
